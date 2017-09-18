@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple"
+    tools:context="com.example.engn.watermeter.MainActivity">
+
+
+    <Button
+        android:id="@+id/bardakbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        android:layout_marginTop="123dp"
+        android:textColor="@android:color/holo_purple"
+        android:text="Bardak(200 ml)"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/sisebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bardakbtn"
+        android:layout_marginTop="39dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_purple"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="Pet Şişe(500 ml)"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/arsivbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/sisebtn"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_purple"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="63dp"
+        android:text="Su Arşivini Görüntüle"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btnsil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/arsivbtn"
+        android:layout_marginTop="42dp"
+        android:text="Arşivi Sil"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_purple"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
